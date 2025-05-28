@@ -17,5 +17,9 @@
 17 (first line). echo "temp/" > .gitignore
 17 (second line). echo "dataset0?.csv" >> .gitignore
 18. cat .gitignore
-19 (switch to main). git checkout main
-19 (merge). git merge feature-update
+19. git commit -a -m "Add .gitignore file"
+20 (switch to main). git checkout main
+20 (merge). git merge feature-update
+21 (stage). git add commands.txt
+21 (commit). git commit -m "Update commands.txt"
+21 (push). git push 
