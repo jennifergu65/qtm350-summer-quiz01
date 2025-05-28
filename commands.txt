@@ -13,4 +13,9 @@
 14. rm docs/documentation.md
 15 (stage). git add .
 15 (commit). git commit -m "Update project files"
-16. 
+16. touch .gitignore
+17 (first line). echo "temp/" > .gitignore
+17 (second line). echo "dataset0?.csv" >> .gitignore
+18. cat .gitignore
+19 (switch to main). git checkout main
+19 (merge). git merge feature-update
